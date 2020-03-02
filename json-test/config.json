@@ -1,0 +1,19 @@
+{
+    "consumer_data": {
+        "brokers": [
+            "localhost:9092",
+            "127.0.0.1:9092"
+        ],
+        "topic": "consumeTopic",
+        "group": "consumeGroup",
+        "assignor": "range",
+        "version": "2.4.0",
+        "oldest": false
+    },
+    "producer_data": {
+        "brokers": [
+            "localhost:9092"
+        ],
+        "topic": "produceTopic"
+    }
+}
