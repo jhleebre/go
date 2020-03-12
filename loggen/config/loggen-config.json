@@ -1,0 +1,9 @@
+{
+    "brokers": ["localhost:9092"],
+    "topic": "consumeTopic",
+    "required_acks": "no_response",
+    "compression": "none",
+    "num_log_samples": 100,
+    "msec_period": 1000,
+    "duplication": 2
+}
