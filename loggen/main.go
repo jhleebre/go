@@ -180,7 +180,7 @@ func main() {
 	case <-ctx.Done():
 		fmt.Println("terminating: context cancelled")
 	case <-sigterm:
-		fmt.Println("terminating: via siganl")
+		fmt.Println("terminating: via signal")
 	}
 
 	cancel()
